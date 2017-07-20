@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F5887F71EE000D3009AB393 /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F5887F61EE000D3009AB393 /* FirebaseManager.swift */; };
+		8F7C8BD31F20B3AB0080AE33 /* HomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8BD21F20B3AB0080AE33 /* HomViewController.swift */; };
+		8F7C8BD51F20C0800080AE33 /* MainNavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F7C8BD41F20C0800080AE33 /* MainNavigationController.swift */; };
+		8FABF6DF1EC1DE060072C0B5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABF6DE1EC1DE060072C0B5 /* AppDelegate.swift */; };
+		8FABF6E41EC1DE060072C0B5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FABF6E21EC1DE060072C0B5 /* Main.storyboard */; };
+		8FABF6E61EC1DE060072C0B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FABF6E51EC1DE060072C0B5 /* Assets.xcassets */; };
+		8FABF6E91EC1DE060072C0B5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FABF6E71EC1DE060072C0B5 /* LaunchScreen.storyboard */; };
+		8FABF6F41EC1DE060072C0B5 /* SwiftiOSLearningTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FABF6F31EC1DE060072C0B5 /* SwiftiOSLearningTests.swift */; };
+		8FAE34791EDFD15D00ADEF1D /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE34781EDFD15D00ADEF1D /* SignupViewController.swift */; };
+		8FAE347B1EDFD17800ADEF1D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE347A1EDFD17800ADEF1D /* LoginViewController.swift */; };
+		8FAE347E1EDFD28D00ADEF1D /* SignupViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE347D1EDFD28D00ADEF1D /* SignupViewPresenter.swift */; };
+		8FAE34801EDFD29900ADEF1D /* LoginViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE347F1EDFD29900ADEF1D /* LoginViewPresenter.swift */; };
+		8FAE34831EDFD33400ADEF1D /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE34821EDFD33400ADEF1D /* SignupView.swift */; };
+		8FAE34851EDFDD6000ADEF1D /* FirebaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE34841EDFDD6000ADEF1D /* FirebaseService.swift */; };
+		8FAE34881EDFDE1300ADEF1D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FAE34871EDFDE1300ADEF1D /* User.swift */; };
+		8FAE348A1EDFFBD800ADEF1D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8FAE34891EDFFBD800ADEF1D /* GoogleService-Info.plist */; };
+		B2AF8736FA509B30E343B49A /* Pods_SwiftiOSLearning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D5F2061401B44500018316 /* Pods_SwiftiOSLearning.framework */; };
+		D9A150692622DE0B11216AC7 /* Pods_SwiftiOSLearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E495D2B22DA9323BC6D7B3 /* Pods_SwiftiOSLearningTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FABF6F01EC1DE060072C0B5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FABF6D31EC1DE060072C0B5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FABF6DA1EC1DE060072C0B5;
+			remoteInfo = SwiftiOSLearning;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D5F2061401B44500018316 /* Pods_SwiftiOSLearning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftiOSLearning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		39E495D2B22DA9323BC6D7B3 /* Pods_SwiftiOSLearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SwiftiOSLearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F5887F61EE000D3009AB393 /* FirebaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		8F7C8BD21F20B3AB0080AE33 /* HomViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomViewController.swift; sourceTree = "<group>"; };
+		8F7C8BD41F20C0800080AE33 /* MainNavigationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainNavigationController.swift; sourceTree = "<group>"; };
+		8FABF6DB1EC1DE060072C0B5 /* SwiftiOSLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftiOSLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FABF6DE1EC1DE060072C0B5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FABF6E31EC1DE060072C0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FABF6E51EC1DE060072C0B5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FABF6E81EC1DE060072C0B5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FABF6EA1EC1DE060072C0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FABF6EF1EC1DE060072C0B5 /* SwiftiOSLearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftiOSLearningTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FABF6F31EC1DE060072C0B5 /* SwiftiOSLearningTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftiOSLearningTests.swift; sourceTree = "<group>"; };
+		8FABF6F51EC1DE060072C0B5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FAE34781EDFD15D00ADEF1D /* SignupViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		8FAE347A1EDFD17800ADEF1D /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8FAE347D1EDFD28D00ADEF1D /* SignupViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupViewPresenter.swift; sourceTree = "<group>"; };
+		8FAE347F1EDFD29900ADEF1D /* LoginViewPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewPresenter.swift; sourceTree = "<group>"; };
+		8FAE34821EDFD33400ADEF1D /* SignupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		8FAE34841EDFDD6000ADEF1D /* FirebaseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseService.swift; sourceTree = "<group>"; };
+		8FAE34871EDFDE1300ADEF1D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8FAE34891EDFFBD800ADEF1D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9D3C947E0D297144275ADB90 /* Pods-SwiftiOSLearning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftiOSLearning.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftiOSLearning/Pods-SwiftiOSLearning.release.xcconfig"; sourceTree = "<group>"; };
+		9D47D86B22B2DF6C7D44C8E7 /* Pods-SwiftiOSLearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftiOSLearningTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftiOSLearningTests/Pods-SwiftiOSLearningTests.release.xcconfig"; sourceTree = "<group>"; };
+		B38F6ADCAC43C7D15841F9AA /* Pods-SwiftiOSLearning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftiOSLearning.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftiOSLearning/Pods-SwiftiOSLearning.debug.xcconfig"; sourceTree = "<group>"; };
+		E7BD1A6EBBC1CDFB107B2DE2 /* Pods-SwiftiOSLearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwiftiOSLearningTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwiftiOSLearningTests/Pods-SwiftiOSLearningTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FABF6D81EC1DE060072C0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2AF8736FA509B30E343B49A /* Pods_SwiftiOSLearning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FABF6EC1EC1DE060072C0B5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A150692622DE0B11216AC7 /* Pods_SwiftiOSLearningTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4E25265DACAC097D11455124 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B38F6ADCAC43C7D15841F9AA /* Pods-SwiftiOSLearning.debug.xcconfig */,
+				9D3C947E0D297144275ADB90 /* Pods-SwiftiOSLearning.release.xcconfig */,
+				E7BD1A6EBBC1CDFB107B2DE2 /* Pods-SwiftiOSLearningTests.debug.xcconfig */,
+				9D47D86B22B2DF6C7D44C8E7 /* Pods-SwiftiOSLearningTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8F5887F51EE000C2009AB393 /* services */ = {
+			isa = PBXGroup;
+			children = (
+				8F5887F61EE000D3009AB393 /* FirebaseManager.swift */,
+			);
+			name = services;
+			sourceTree = "<group>";
+		};
+		8FABF6D21EC1DE060072C0B5 = {
+			isa = PBXGroup;
+			children = (
+				8FABF6DD1EC1DE060072C0B5 /* SwiftiOSLearning */,
+				8FABF6F21EC1DE060072C0B5 /* SwiftiOSLearningTests */,
+				8FABF6DC1EC1DE060072C0B5 /* Products */,
+				4E25265DACAC097D11455124 /* Pods */,
+				A33A8B477A593C2FA8E5D72A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8FABF6DC1EC1DE060072C0B5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FABF6DB1EC1DE060072C0B5 /* SwiftiOSLearning.app */,
+				8FABF6EF1EC1DE060072C0B5 /* SwiftiOSLearningTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FABF6DD1EC1DE060072C0B5 /* SwiftiOSLearning */ = {
+			isa = PBXGroup;
+			children = (
+				8F5887F51EE000C2009AB393 /* services */,
+				8FAE34891EDFFBD800ADEF1D /* GoogleService-Info.plist */,
+				8FAE34861EDFDDFB00ADEF1D /* models */,
+				8FAE34811EDFD31100ADEF1D /* protocols */,
+				8FAE347C1EDFD26D00ADEF1D /* presenters */,
+				8FAE34771EDFD12500ADEF1D /* viewcontrollers */,
+				8FABF6DE1EC1DE060072C0B5 /* AppDelegate.swift */,
+				8FABF6E21EC1DE060072C0B5 /* Main.storyboard */,
+				8FABF6E51EC1DE060072C0B5 /* Assets.xcassets */,
+				8FABF6E71EC1DE060072C0B5 /* LaunchScreen.storyboard */,
+				8FABF6EA1EC1DE060072C0B5 /* Info.plist */,
+				8F7C8BD41F20C0800080AE33 /* MainNavigationController.swift */,
+			);
+			path = SwiftiOSLearning;
+			sourceTree = "<group>";
+		};
+		8FABF6F21EC1DE060072C0B5 /* SwiftiOSLearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FABF6F31EC1DE060072C0B5 /* SwiftiOSLearningTests.swift */,
+				8FABF6F51EC1DE060072C0B5 /* Info.plist */,
+			);
+			path = SwiftiOSLearningTests;
+			sourceTree = "<group>";
+		};
+		8FAE34771EDFD12500ADEF1D /* viewcontrollers */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE34781EDFD15D00ADEF1D /* SignupViewController.swift */,
+				8FAE347A1EDFD17800ADEF1D /* LoginViewController.swift */,
+				8F7C8BD21F20B3AB0080AE33 /* HomViewController.swift */,
+			);
+			name = viewcontrollers;
+			sourceTree = "<group>";
+		};
+		8FAE347C1EDFD26D00ADEF1D /* presenters */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE347D1EDFD28D00ADEF1D /* SignupViewPresenter.swift */,
+				8FAE347F1EDFD29900ADEF1D /* LoginViewPresenter.swift */,
+			);
+			name = presenters;
+			sourceTree = "<group>";
+		};
+		8FAE34811EDFD31100ADEF1D /* protocols */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE34821EDFD33400ADEF1D /* SignupView.swift */,
+				8FAE34841EDFDD6000ADEF1D /* FirebaseService.swift */,
+			);
+			name = protocols;
+			sourceTree = "<group>";
+		};
+		8FAE34861EDFDDFB00ADEF1D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				8FAE34871EDFDE1300ADEF1D /* User.swift */,
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		A33A8B477A593C2FA8E5D72A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05D5F2061401B44500018316 /* Pods_SwiftiOSLearning.framework */,
+				39E495D2B22DA9323BC6D7B3 /* Pods_SwiftiOSLearningTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FABF6DA1EC1DE060072C0B5 /* SwiftiOSLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FABF6F81EC1DE060072C0B5 /* Build configuration list for PBXNativeTarget "SwiftiOSLearning" */;
+			buildPhases = (
+				4802A87D69DC5CD9D6D839C4 /* [CP] Check Pods Manifest.lock */,
+				8FABF6D71EC1DE060072C0B5 /* Sources */,
+				8FABF6D81EC1DE060072C0B5 /* Frameworks */,
+				8FABF6D91EC1DE060072C0B5 /* Resources */,
+				FF249D2D29C1A6E495BD115A /* [CP] Embed Pods Frameworks */,
+				719A590D2538A5F5C1AB9F78 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftiOSLearning;
+			productName = SwiftiOSLearning;
+			productReference = 8FABF6DB1EC1DE060072C0B5 /* SwiftiOSLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FABF6EE1EC1DE060072C0B5 /* SwiftiOSLearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FABF6FB1EC1DE060072C0B5 /* Build configuration list for PBXNativeTarget "SwiftiOSLearningTests" */;
+			buildPhases = (
+				4219BB0A99A106D820232D54 /* [CP] Check Pods Manifest.lock */,
+				8FABF6EB1EC1DE060072C0B5 /* Sources */,
+				8FABF6EC1EC1DE060072C0B5 /* Frameworks */,
+				8FABF6ED1EC1DE060072C0B5 /* Resources */,
+				50719BDBCACC4299AF4304F0 /* [CP] Embed Pods Frameworks */,
+				6E08B38D47BF9E334E5649CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FABF6F11EC1DE060072C0B5 /* PBXTargetDependency */,
+			);
+			name = SwiftiOSLearningTests;
+			productName = SwiftiOSLearningTests;
+			productReference = 8FABF6EF1EC1DE060072C0B5 /* SwiftiOSLearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FABF6D31EC1DE060072C0B5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Infolytx;
+				TargetAttributes = {
+					8FABF6DA1EC1DE060072C0B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5B7M974NVM;
+						ProvisioningStyle = Automatic;
+					};
+					8FABF6EE1EC1DE060072C0B5 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5B7M974NVM;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FABF6DA1EC1DE060072C0B5;
+					};
+				};
+			};
+			buildConfigurationList = 8FABF6D61EC1DE060072C0B5 /* Build configuration list for PBXProject "SwiftiOSLearning" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FABF6D21EC1DE060072C0B5;
+			productRefGroup = 8FABF6DC1EC1DE060072C0B5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FABF6DA1EC1DE060072C0B5 /* SwiftiOSLearning */,
+				8FABF6EE1EC1DE060072C0B5 /* SwiftiOSLearningTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FABF6D91EC1DE060072C0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FABF6E91EC1DE060072C0B5 /* LaunchScreen.storyboard in Resources */,
+				8FAE348A1EDFFBD800ADEF1D /* GoogleService-Info.plist in Resources */,
+				8FABF6E61EC1DE060072C0B5 /* Assets.xcassets in Resources */,
+				8FABF6E41EC1DE060072C0B5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FABF6ED1EC1DE060072C0B5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4219BB0A99A106D820232D54 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4802A87D69DC5CD9D6D839C4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		50719BDBCACC4299AF4304F0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftiOSLearningTests/Pods-SwiftiOSLearningTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6E08B38D47BF9E334E5649CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftiOSLearningTests/Pods-SwiftiOSLearningTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		719A590D2538A5F5C1AB9F78 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftiOSLearning/Pods-SwiftiOSLearning-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF249D2D29C1A6E495BD115A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwiftiOSLearning/Pods-SwiftiOSLearning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FABF6D71EC1DE060072C0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FAE34831EDFD33400ADEF1D /* SignupView.swift in Sources */,
+				8FAE347B1EDFD17800ADEF1D /* LoginViewController.swift in Sources */,
+				8F5887F71EE000D3009AB393 /* FirebaseManager.swift in Sources */,
+				8F7C8BD51F20C0800080AE33 /* MainNavigationController.swift in Sources */,
+				8F7C8BD31F20B3AB0080AE33 /* HomViewController.swift in Sources */,
+				8FAE34851EDFDD6000ADEF1D /* FirebaseService.swift in Sources */,
+				8FAE34791EDFD15D00ADEF1D /* SignupViewController.swift in Sources */,
+				8FAE347E1EDFD28D00ADEF1D /* SignupViewPresenter.swift in Sources */,
+				8FAE34881EDFDE1300ADEF1D /* User.swift in Sources */,
+				8FAE34801EDFD29900ADEF1D /* LoginViewPresenter.swift in Sources */,
+				8FABF6DF1EC1DE060072C0B5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FABF6EB1EC1DE060072C0B5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FABF6F41EC1DE060072C0B5 /* SwiftiOSLearningTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FABF6F11EC1DE060072C0B5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FABF6DA1EC1DE060072C0B5 /* SwiftiOSLearning */;
+			targetProxy = 8FABF6F01EC1DE060072C0B5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FABF6E21EC1DE060072C0B5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FABF6E31EC1DE060072C0B5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FABF6E71EC1DE060072C0B5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FABF6E81EC1DE060072C0B5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FABF6F61EC1DE060072C0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FABF6F71EC1DE060072C0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FABF6F91EC1DE060072C0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B38F6ADCAC43C7D15841F9AA /* Pods-SwiftiOSLearning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5B7M974NVM;
+				INFOPLIST_FILE = SwiftiOSLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.swiftioslearning.SwiftiOSLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8FABF6FA1EC1DE060072C0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D3C947E0D297144275ADB90 /* Pods-SwiftiOSLearning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5B7M974NVM;
+				INFOPLIST_FILE = SwiftiOSLearning/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.swiftioslearning.SwiftiOSLearning;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		8FABF6FC1EC1DE060072C0B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E7BD1A6EBBC1CDFB107B2DE2 /* Pods-SwiftiOSLearningTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5B7M974NVM;
+				INFOPLIST_FILE = SwiftiOSLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.swiftioslearning.SwiftiOSLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftiOSLearning.app/SwiftiOSLearning";
+			};
+			name = Debug;
+		};
+		8FABF6FD1EC1DE060072C0B5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D47D86B22B2DF6C7D44C8E7 /* Pods-SwiftiOSLearningTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 5B7M974NVM;
+				INFOPLIST_FILE = SwiftiOSLearningTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.apps.swiftioslearning.SwiftiOSLearningTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftiOSLearning.app/SwiftiOSLearning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FABF6D61EC1DE060072C0B5 /* Build configuration list for PBXProject "SwiftiOSLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FABF6F61EC1DE060072C0B5 /* Debug */,
+				8FABF6F71EC1DE060072C0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FABF6F81EC1DE060072C0B5 /* Build configuration list for PBXNativeTarget "SwiftiOSLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FABF6F91EC1DE060072C0B5 /* Debug */,
+				8FABF6FA1EC1DE060072C0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FABF6FB1EC1DE060072C0B5 /* Build configuration list for PBXNativeTarget "SwiftiOSLearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FABF6FC1EC1DE060072C0B5 /* Debug */,
+				8FABF6FD1EC1DE060072C0B5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FABF6D31EC1DE060072C0B5 /* Project object */;
+}
